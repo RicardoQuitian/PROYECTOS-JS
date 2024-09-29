@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-   
-    <title>Mi calculadora</title>
-</head>
-<body>
-    <form id="miFormulario" name="" method="get">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="miFormulario" name="" method="get">
         <!--Empezamos con creación de cajas-->
-        <label>Número 1: </label>
-        <input type="number" name="" id="valor1" autofocus placeholder="Escribe un número">
-        <button onclick="limpiar()"> Limpiar campos </button>
 
-        <br>
-        <br>
-<label>Número 2: </label>
-<input type="number" name="" id="valor2" placeholder="Escribe otro número">
+        <div class="cajaNum1Num2">
+          <div class="cajasNumberImputs">
+              <div class="cajaNumImput">
+                <label class="num"> Número 1: </label>
+                <input type="number" name="" id="valor1" placeholder="Ingresa primer número"/>
+              </div>       
+              <div class="cajaNumImput">
+                <label class="num"> Número 2: </label>
+                <input type="number" name="" id="valor2" placeholder="Ingresa segundo número"/>
+              </div>
+            </div> 
+            <button class="botonLimpiar" onclick="limpiar()">Limpiar campos</button>
+          </div>
 
-<br>
-<br>
+          <div class="cajaBotonSumResMulDiv">
+            <button class="buttonNumber" type="button" onclick="sumar();">Sumar</button>
+            <button class="buttonNumber" type="button" onclick="restar();">Restar</button>
+            <button class="buttonNumber" type="button" onclick="multiplicar();">Multiplicar</button>
+            <button class="buttonNumber" type="button" onclick="dividir();">Dividir</button>
+          </div>
 
-<button type="button" onclick="sumar();">Sumar</button>
-<button type="button" onclick="restar();">Restar</button>
-<button type="button" onclick="multiplicar();">Multiplicar</button>
-<button type="button" onclick="dividir();">Dividir</button>
-    <p>El resultado es: <span id="el-resultado"></span></p>
+          <p class="pResultado"> El resultado es: </p>
+          <span id="el-resultado"></span>
+        </form>
 
-</form>
-
-    <script src="index.js"></script>
-    
-</body>
+        <script src="index.js"></script>
+    </div>
+  </body>
 </html>

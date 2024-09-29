@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+#miFormulario{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaNum1Num2{
+  display: inline-flex;
+  margin-bottom: 15px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajaBotonSumResMulDiv{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.num{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+#valor1{
+padding: 10px;
+border-radius: 50px;
+border:solid black 3px;
+
+}
+
+#valor2{
+padding: 10px;
+border-radius: 50px;
+border:solid black 3px;
+}
+
+.cajaNumImput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.botonLimpiar{
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: large; 
+}
+
+.cajasNumberImputs{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttonNumber{
+  height: 40px;
+  font-size: large;
+  width: 150px;
+  border-radius: 15px;
+}
+
+#el-resultado{
+  border-radius: 10px;
+  width: auto;
+  height: 50px;
+  border: solid black 2px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.pResultado{
+  font-size: large;
+  margin-top: 15px;
+}
+
+#valor1{
+  font-size: 15px;
+}
+
+#valor2{
+  font-size: 15px;
+}
