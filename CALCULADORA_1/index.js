@@ -1,5 +1,5 @@
 function limpiar (){
-    document.getElementById('miFormulario').reset(); // Eliminar todo lo que este en mi formulario
+    document.getElementById('miFormulario').form.reset(); // Eliminar todo lo que este en mi formulario
 }
 
 function sumar (){
@@ -23,6 +23,7 @@ function dividir (){
     document.getElementById('el-resultado').innerHTML = x / y; 
 }
 
+document.getElementById('el-resultado').innerHTML = x + y;
 
 
 
