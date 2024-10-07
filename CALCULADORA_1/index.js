@@ -24,6 +24,3 @@ function dividir (){
 }
 
 document.getElementById('el-resultado').innerHTML = x + y;
-
-
-
