@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="styleheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="container">
         <h1>Buscador de Pokemón</h1>
+        <h2>Ingrese nombre o número del pokemon que desea buscar</h2>
 
         <div class="cards">
-            <div class="card one"></div>
+           <!--<div class="card one"></div>-->
 
             <cards class="two">
-                <input type="text"  id="pokemonInput1" placeholder="Nombre o número de Pokemón"> <br>
+                <input type="text"  id="pokemonInput1" placeholder="Nombre o número de Pokemón">
                 <button onclick="buscarPokemon(1)"> Buscar Pokemón</button>
                 <div id="pokemonInfo1"></div>
             </cards>
 
-            <cards class="tree"></cards>
-                <input type="text"  id="pokemonInput2" placeholder="Nombre o número de Pokemón"> <br>
+            <cards class="tree">
+                <input type="text"  id="pokemonInput2" placeholder="Nombre o número de Pokemón">
                 <button onclick="buscarPokemon(2)"> Buscar Pokemón</button>
                 <div id="pokemonInfo2"></div>
             </cards>
         </div>
+        <img src="Pokedex_logo.png" alt="Logo_de_pokedex">
+        <img class="pokedex2" src="Pokedex_logo.png" alt="Logo_de_pokedex">
     </div>
 
 

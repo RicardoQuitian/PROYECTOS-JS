@@ -23,9 +23,9 @@ function mostrarPokemon(datosPokemon, contenedorNumero){
     infoDiv.innerHTML = `
     <h2 class="pk-name" >${datosPokemon.name.toUpperCase()}</h2>
     <img class="pk-img" src = "${datosPokemon.sprites.other["official-artwork"].front_default}">
-    <p>Número:${datosPokemon.id}</p>
-    <p>Weight:${datosPokemon.weight/10}Kg</p>
-    <p>Height:${datosPokemon.height/10}m</p>
+    <p class="pk-name2">Número:${datosPokemon.id}</p>
+    <p class="pk-name2">Peso:${datosPokemon.weight/10}Kg</p>
+    <p class="pk-name2">Altura:${datosPokemon.height/10}m</p>
     `
 }
 
