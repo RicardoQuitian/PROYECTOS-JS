@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body.modo-oscuro {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+  }
+  
+  body.modo-claro {
+    background-color: #ffffff; /* Fondo claro */
+    color: #000000; /* Texto oscuro */
+  }
+
+header img{
+    height:40px;
+    width: auto;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
