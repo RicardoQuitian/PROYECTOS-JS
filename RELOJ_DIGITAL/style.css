@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    gap: 10px;
+}
+
+#reloj.modo-oscuro {
+    font-size: 3em;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #222;
+}
+
+#reloj.modo-claro {
+    font-size: 3em;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+body.modo-oscuro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    gap: 10px;
+  }
+  
+  body.modo-claro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #010000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    gap: 10px;
+  }
+
+body img{
+    height: 50px;
+}
+
+body header {
+    display: flex;
+    gap: 50px;
+}
+
+#reloj {
+    font-size: 3em;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #222;
+}
