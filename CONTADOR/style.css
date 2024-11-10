@@ -1,35 +1,34 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body.modo-oscuro {
-    background-color: #121212; /* Fondo oscuro */
-    color: #ffffff; /* Texto claro */
-  }
-  
-  body.modo-claro {
-    background-color: #ffffff; /* Fondo claro */
-    color: #000000; /* Texto oscuro */
-  }
-
-header img{
-    height:40px;
-    width: auto;
-    cursor: pointer;
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffffff; /* Texto claro */
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 100px;
-    margin-right: 60px;
-    gap: 5px;
+body.modo-claro {
+  background-color: #ffffff; /* Fondo claro */
+  color: #000000; /* Texto oscuro */
 }
 
+header img {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
 
-main{
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  margin-right: 60px;
+  gap: 5px;
+}
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,20 +36,23 @@ main{
   gap: 15px;
 }
 
-main p{
+main p {
   margin-top: 200px;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 300px;
+  font-family: serif, Geneva, Tahoma, sans-serif, "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
 }
 
-main div button{
+main div button {
   border-radius: 15px;
   padding: 10px;
   font-family: fantasy;
-  font-size: 15px;
+  font-size: 25px;
   cursor: pointer;
+  height: 50px;
+  width: 150px;
 }
 
-main div button:hover{
+main div button:hover {
   background-color: rgb(143, 199, 163);
 }
