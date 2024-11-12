@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     display: flex;
@@ -6,11 +12,15 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
 }
 
 .galeria {
     text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .imagen-principal img {
@@ -61,4 +71,9 @@ body {
     border-color: #333;
     transform: scale(1.1);
     opacity: 0.8;
+}
+
+#imagen-grande{
+    height: 370px;
+    width: auto;
 }
